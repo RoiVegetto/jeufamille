@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Lora;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url(../Lora-VariableFont_wght.ttf);
+}
+
+body {
+    background-image: url("../images/logo/joyeux\ anniversaire.jpg");
+    background-position: 0% 20%;
+    background-size: 100%;
+    font-family: 'Lora', sans-serif;
+}
+
+header {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.logo {
+    height: 100px;
+}
+
+.Question--P {
+    position: absolute;
+    top: 28%;
+    left: 5%;
+}
+
+.header--page__button {
+    color: black;
+    font-size: 40px;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 80px 20px;
+    margin: 10px;
+}
+
+.container--card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+    max-width: 99%;
+}
+
+.main--color__card {
+    width: 95px;
+    height: 95px;
+    border: solid 2px #f2f2f2;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main--color__card p {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.color--elod {
+    background: pink;
+}
+.color--mael {
+    background: orange;
+}
+.color--cathy {
+    background: red;
+}
+.color--yves {
+    background: grey;
+}
+.color--titi {
+    background: green;
+}
+.color--marine {
+    background: purple;
+}
+.color--jj {
+    background: maroon;
+}
+.color--corrine {
+    background: yellow;
+}
+.color--didier {
+    background: blue;
+}
+.color--maureen {
+    background: yellowgreen;
+}
+.color--jo {
+    background: cyan;
+}
+.color--cg {
+    background: white;
+}
+
+.main--question__card:active .Question--P{
+    visibility: visible;
+    font-size: 500%;
+    max-width: 80%;
+    position: absolute;
+    top: 28%;
+    left: 5%;
+}
+
+.main--question__card:active .Color--P__elod {
+    background-color: pink;
+}
+.main--question__card:active .Color--P__mael {
+    background-color: orange;
+}
+.main--question__card:active .Color--P__cathy {
+    background-color: red;
+}
+.main--question__card:active .Color--P__yves {
+    background-color: grey;
+}
+.main--question__card:active .Color--P__titi {
+    background-color: green;
+}
+.main--question__card:active .Color--P__marine {
+    background-color: purple;
+}
+.main--question__card:active .Color--P__jj {
+    background-color: maroon;
+}
+.main--question__card:active .Color--P__corrine {
+    background-color: yellow;
+}
+.main--question__card:active .Color--P__didier {
+    background-color: blue;
+}
+.main--question__card:active .Color--P__maureen {
+    background-color: yellowgreen;
+}
+.main--question__card:active .Color--P__jo {
+    background-color: cyan;
+}
+.main--question__card:active .Color--P__cg {
+    background-color: white;
+}
+
+.main--question__card {
+    width: 95px;
+    height: 95px;
+    background: none;
+    border: solid 2px #f2f2f2;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main--question__number {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.main--question__card .Question--P{
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.container--score {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container--score__card {
+    margin: 100px 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 200px;
+    border-radius: 80px 20px;
+}
+
+.container--score__card h2 {
+    font-size: 40px;
+}
+
+.container--score input {
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    background: none;
+    border: solid 1px black;
+}
