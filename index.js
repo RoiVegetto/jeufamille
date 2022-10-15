@@ -409,11 +409,11 @@ changeColor82.addEventListener('click', function onClick(event) {
 });
 
 const changeColor83 = document.getElementById('83');
-changeColor82.addEventListener('click', function onClick(event) {
+changeColor83.addEventListener('click', function onClick(event) {
   event.target.style.background = 'pink';
 });
 
 const changeColor84 = document.getElementById('84');
-changeColor82.addEventListener('click', function onClick(event) {
+changeColor84.addEventListener('click', function onClick(event) {
   event.target.style.background = 'white';
 });
