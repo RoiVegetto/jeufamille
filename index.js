@@ -15,7 +15,7 @@ changeColor3.addEventListener('click', function onClick(event) {
 
 const changeColor4 = document.getElementById('4');
 changeColor4.addEventListener('click', function onClick(event) {
-  event.target.style.background = 'orange';
+  event.target.style.background = 'tan';
 });
 
 const changeColor5 = document.getElementById('5');
@@ -150,7 +150,7 @@ changeColor30.addEventListener('click', function onClick(event) {
 
 const changeColor31 = document.getElementById('31');
 changeColor31.addEventListener('click', function onClick(event) {
-  event.target.style.background = 'white';
+  event.target.style.background = 'tan';
 });
 
 const changeColor32 = document.getElementById('32');
@@ -240,7 +240,7 @@ changeColor48.addEventListener('click', function onClick(event) {
 
 const changeColor49 = document.getElementById('49');
 changeColor49.addEventListener('click', function onClick(event) {
-  event.target.style.background = 'pink';
+  event.target.style.background = 'tan';
 });
 
 const changeColor50 = document.getElementById('50');
@@ -325,7 +325,7 @@ changeColor65.addEventListener('click', function onClick(event) {
 
 const changeColor66 = document.getElementById('66');
 changeColor66.addEventListener('click', function onClick(event) {
-  event.target.style.background = 'blue';
+  event.target.style.background = 'tan';
 });
 
 const changeColor67 = document.getElementById('67');
@@ -381,4 +381,39 @@ changeColor76.addEventListener('click', function onClick(event) {
 const changeColor77 = document.getElementById('77');
 changeColor77.addEventListener('click', function onClick(event) {
   event.target.style.background = 'grey';
+});
+
+const changeColor78 = document.getElementById('78');
+changeColor78.addEventListener('click', function onClick(event) {
+  event.target.style.background = 'white';
+});
+
+const changeColor79 = document.getElementById('79');
+changeColor79.addEventListener('click', function onClick(event) {
+  event.target.style.background = 'orange';
+});
+
+const changeColor80 = document.getElementById('80');
+changeColor80.addEventListener('click', function onClick(event) {
+  event.target.style.background = 'yellowgreen';
+});
+
+const changeColor81 = document.getElementById('81');
+changeColor81.addEventListener('click', function onClick(event) {
+  event.target.style.background = 'blue';
+});
+
+const changeColor82 = document.getElementById('82');
+changeColor82.addEventListener('click', function onClick(event) {
+  event.target.style.background = 'tan';
+});
+
+const changeColor83 = document.getElementById('83');
+changeColor82.addEventListener('click', function onClick(event) {
+  event.target.style.background = 'pink';
+});
+
+const changeColor84 = document.getElementById('84');
+changeColor82.addEventListener('click', function onClick(event) {
+  event.target.style.background = 'white';
 });

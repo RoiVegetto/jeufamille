@@ -107,6 +107,9 @@ h1 {
 .color--jo {
     background: cyan;
 }
+.color--max {
+    background: tan;
+}
 .color--cg {
     background: white;
 }
@@ -152,6 +155,9 @@ h1 {
 }
 .main--question__card:active .Color--P__jo {
     background-color: cyan;
+}
+.main--question__card:active .Color--P__max {
+    background-color: tan;
 }
 .main--question__card:active .Color--P__cg {
     background-color: white;
